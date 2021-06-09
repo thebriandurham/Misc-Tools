@@ -1,7 +1,7 @@
 # README FIRST
 
 ## Contents
-### * NanoParser
+* NanoParser
 
 ## NanoParser.py
 Created to parse log files from Nanominer to ensure accurate share ratings when calculating payout ratios within a shared nanopool pool.
