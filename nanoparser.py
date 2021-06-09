@@ -9,7 +9,7 @@ import glob, re
 from os import close
 from typing import Match
 
-logFolder = "$YOUR_LOGS_FILEPATH_HERE"
+logFolder = ".\\logs\\*.log"
 
 def run():
     print("Checking for NanoMiner logs @ {0}".format(logFolder))
@@ -45,6 +45,7 @@ def run():
                 pass
 
     print("\nNanoParser FINISHED: Total Shares From Logs: {0}".format(shareCount))
+    input("Press enter to exit...")
 
 if __name__ == "__main__":
     run()
